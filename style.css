@@ -1,0 +1,82 @@
+#table {
+    width: 300px;
+    display: table;
+    background: red;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    height: 200px;
+    background: yellow;
+    vertical-align: middle;
+    text-align: center;
+}
+p {
+    color: #a24a2a;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: #2aa26a;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: #a24a2a;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+}
+th {
+  text-align: center;
+    background-color: #a22a46;
+    color: white;
+}
+form {
+  text-align: center;
+}
+button {
+  background-color: #893f50;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+
+
+  &:focus, &:active {
+    outline: 0;
+  }
+}
+button2 {
+  text-align: center;
+  background-color: #a22a46;
+  padding: 8px 20px;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  text
+  cursor: pointer;
+  border-radius: 12px;
+  &:focus, &:active {
+    outline: 0;
+  }
+}
+.jumbotron{
+ margin-top:0%;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ left:10px;
+ font-size:15px;
+}
+/*td:nth-child(even){background-color: #FFDDF9}*/
